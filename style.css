@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+header {
+  background: linear-gradient(135deg, #34495e, #2c3e50);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+header p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px 50px;
+}
+.instructions {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.instructions h2 {
+  margin-top: 0;
+  color: #27ae60;
+}
+.question {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+.question h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #2980b9;
+  margin-bottom: 15px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background: #ecf0f1;
+  font-weight: bold;
+}
+td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+input[type="radio"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+button {
+  background: #e67e22;
+  color: #fff;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 30px auto;
+  display: block;
+  transition: 0.3s;
+  width: 250px;
+}
+button:hover {
+  background: #d35400;
+}
+#result {
+  display: none;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+.highlight {
+  font-size: 20px;
+  color: #c0392b;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 8px;
+  color: #7f8c8d;
+}
