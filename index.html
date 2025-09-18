@@ -26,15 +26,12 @@
       <p>Mỗi câu có 4 lựa chọn, bạn cần phân bổ điểm 1–4 cho cả 4 lựa chọn (mỗi điểm chỉ dùng 1 lần trong một câu).</p>
     </div>
 
-    <!-- Các câu hỏi (giữ nguyên cấu trúc giống mình gửi lần trước, chỉ copy vào đây) -->
     <!-- Câu 1 -->
     <div class="question">
       <h3>Câu 1: Bạn thường đưa ra quyết định quan trọng dựa trên</h3>
       <table>
         <thead>
-          <tr>
-            <th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th>
-          </tr>
+          <tr><th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th></tr>
         </thead>
         <tbody>
           <tr><td>Cảm tính</td>
@@ -65,7 +62,149 @@
       </table>
     </div>
 
-    <!-- TODO: Thêm câu 2–5 giống cấu trúc trên (copy từ file cũ vào) -->
+    <!-- Câu 2 -->
+    <div class="question">
+      <h3>Câu 2: Trong các buổi tranh luận, bạn dễ bị tác động nhất bởi</h3>
+      <table>
+        <thead>
+          <tr><th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Giọng điệu của người khác</td>
+            <td><input type="radio" name="q2_1" value="A1"></td>
+            <td><input type="radio" name="q2_2" value="A2"></td>
+            <td><input type="radio" name="q2_3" value="A3"></td>
+            <td><input type="radio" name="q2_4" value="A4"></td>
+          </tr>
+          <tr><td>Bạn có thể nhìn thấy quan điểm của người khác hay không</td>
+            <td><input type="radio" name="q2_1" value="V1"></td>
+            <td><input type="radio" name="q2_2" value="V2"></td>
+            <td><input type="radio" name="q2_3" value="V3"></td>
+            <td><input type="radio" name="q2_4" value="V4"></td>
+          </tr>
+          <tr><td>Tính logic trong lời tranh luận của người khác</td>
+            <td><input type="radio" name="q2_1" value="Ad1"></td>
+            <td><input type="radio" name="q2_2" value="Ad2"></td>
+            <td><input type="radio" name="q2_3" value="Ad3"></td>
+            <td><input type="radio" name="q2_4" value="Ad4"></td>
+          </tr>
+          <tr><td>Cảm xúc của người khác</td>
+            <td><input type="radio" name="q2_1" value="K1"></td>
+            <td><input type="radio" name="q2_2" value="K2"></td>
+            <td><input type="radio" name="q2_3" value="K3"></td>
+            <td><input type="radio" name="q2_4" value="K4"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Câu 3 -->
+    <div class="question">
+      <h3>Câu 3: Điều gì bạn cảm thấy hài lòng nhất về bản thân?</h3>
+      <table>
+        <thead>
+          <tr><th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Cách bạn ăn mặc</td>
+            <td><input type="radio" name="q3_1" value="V1"></td>
+            <td><input type="radio" name="q3_2" value="V2"></td>
+            <td><input type="radio" name="q3_3" value="V3"></td>
+            <td><input type="radio" name="q3_4" value="V4"></td>
+          </tr>
+          <tr><td>Cách bạn chia sẻ cảm xúc</td>
+            <td><input type="radio" name="q3_1" value="K1"></td>
+            <td><input type="radio" name="q3_2" value="K2"></td>
+            <td><input type="radio" name="q3_3" value="K3"></td>
+            <td><input type="radio" name="q3_4" value="K4"></td>
+          </tr>
+          <tr><td>Cách bạn dùng từ</td>
+            <td><input type="radio" name="q3_1" value="Ad1"></td>
+            <td><input type="radio" name="q3_2" value="Ad2"></td>
+            <td><input type="radio" name="q3_3" value="Ad3"></td>
+            <td><input type="radio" name="q3_4" value="Ad4"></td>
+          </tr>
+          <tr><td>Giọng nói của bạn</td>
+            <td><input type="radio" name="q3_1" value="A1"></td>
+            <td><input type="radio" name="q3_2" value="A2"></td>
+            <td><input type="radio" name="q3_3" value="A3"></td>
+            <td><input type="radio" name="q3_4" value="A4"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Câu 4 -->
+    <div class="question">
+      <h3>Câu 4: Bạn thấy thật dễ dàng</h3>
+      <table>
+        <thead>
+          <tr><th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Điều chỉnh âm lượng và giai điệu của âm thanh sao cho hay nhất</td>
+            <td><input type="radio" name="q4_1" value="A1"></td>
+            <td><input type="radio" name="q4_2" value="A2"></td>
+            <td><input type="radio" name="q4_3" value="A3"></td>
+            <td><input type="radio" name="q4_4" value="A4"></td>
+          </tr>
+          <tr><td>Chọn lựa những thông tin có giá trị nhất trong một chủ đề</td>
+            <td><input type="radio" name="q4_1" value="Ad1"></td>
+            <td><input type="radio" name="q4_2" value="Ad2"></td>
+            <td><input type="radio" name="q4_3" value="Ad3"></td>
+            <td><input type="radio" name="q4_4" value="Ad4"></td>
+          </tr>
+          <tr><td>Chọn những đồ đạc bạn cảm thấy thoải mái nhất</td>
+            <td><input type="radio" name="q4_1" value="K1"></td>
+            <td><input type="radio" name="q4_2" value="K2"></td>
+            <td><input type="radio" name="q4_3" value="K3"></td>
+            <td><input type="radio" name="q4_4" value="K4"></td>
+          </tr>
+          <tr><td>Chọn những đồ có sự kết hợp màu sắc hài hòa và bắt mắt nhất</td>
+            <td><input type="radio" name="q4_1" value="V1"></td>
+            <td><input type="radio" name="q4_2" value="V2"></td>
+            <td><input type="radio" name="q4_3" value="V3"></td>
+            <td><input type="radio" name="q4_4" value="V4"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Câu 5 -->
+    <div class="question">
+      <h3>Câu 5:</h3>
+      <table>
+        <thead>
+          <tr><th>Lựa chọn</th><th>1 điểm</th><th>2 điểm</th><th>3 điểm</th><th>4 điểm</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bạn rất nhạy cảm với những âm thanh xung quanh</td>
+            <td><input type="radio" name="q5_1" value="A1"></td>
+            <td><input type="radio" name="q5_2" value="A2"></td>
+            <td><input type="radio" name="q5_3" value="A3"></td>
+            <td><input type="radio" name="q5_4" value="A4"></td>
+          </tr>
+          <tr><td>Bạn rất nhạy bén với các thông tin mới</td>
+            <td><input type="radio" name="q5_1" value="Ad1"></td>
+            <td><input type="radio" name="q5_2" value="Ad2"></td>
+            <td><input type="radio" name="q5_3" value="Ad3"></td>
+            <td><input type="radio" name="q5_4" value="Ad4"></td>
+          </tr>
+          <tr><td>Bạn rất nhạy cảm với những đồ bạn đang mặc</td>
+            <td><input type="radio" name="q5_1" value="K1"></td>
+            <td><input type="radio" name="q5_2" value="K2"></td>
+            <td><input type="radio" name="q5_3" value="K3"></td>
+            <td><input type="radio" name="q5_4" value="K4"></td>
+          </tr>
+          <tr><td>Bạn phản ứng nhanh với màu sắc và bề ngoài của sự vật</td>
+            <td><input type="radio" name="q5_1" value="V1"></td>
+            <td><input type="radio" name="q5_2" value="V2"></td>
+            <td><input type="radio" name="q5_3" value="V3"></td>
+            <td><input type="radio" name="q5_4" value="V4"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <button onclick="calculate()">Tính kết quả</button>
     <div id="result"></div>
